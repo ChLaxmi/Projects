@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+}
+.logo{
+   margin-left: 50px;
+}
+.English{
+    margin-left: 800px;
+    padding: 10px 35px 10px 35px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.Signin{
+    margin-left: 20px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.Signin:hover{
+    background-color: #c11c1c;
+    cursor: pointer;
+}
+.bgimg img{
+    width: 100%;
+    filter: brightness(35%);
+}
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding: 10px;
+    width: 80%;
+    margin:  auto ;
+    position: relative;
+    bottom: 600px;
+    color: white;
+    text-align: center;
+}
+.Home h1{
+    font-size: 60px;
+    width: 85%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+.para1{
+    font-size: 30px;
+    width: 70%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.para2{
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.email input{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+}
+.Get{
+    margin-left: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 20px 25px 20px 25px;
+    font-family: sans-serif;
+}
+.Get:hover{
+    background-color: #c11c1c;
+    cursor: pointer;
+}
+.TVShows,.Movies,.Series,.Anime{
+    border-top: 4px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 360px;
+    padding: 20px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+.para3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.para4{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.questions{
+    border-top: 4px solid gray;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    bottom: 360px;
+    padding: 20px;
+}
+.questions ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    background-color: rgb(78, 76, 76, 0.5);
+    width: 900px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.questions h1{
+    font-size: 40px;
+}
+.questions ul li:hover{
+    background-color: gray;
+    color: white;
+}
+.footer{
+    border-top: 4px solid gray;
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    bottom: 360px;
+    padding: 20px;
+}
+.footer p{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.none{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.none ul li{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+/* CSS for Responsive Design */
+
+/* Mobile-First Approach */
